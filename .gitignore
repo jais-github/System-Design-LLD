@@ -1,0 +1,26 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider IDE
+.idea/
+
+# Mac/Windows/VS Code system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore files with permission issues
+SnakeLadderLLD/.vs/
